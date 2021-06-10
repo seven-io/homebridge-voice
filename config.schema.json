@@ -1,0 +1,52 @@
+{
+    "pluginAlias": "Sms77Voice",
+    "pluginType": "accessory",
+    "schema": {
+        "properties": {
+            "apiKey": {
+                "description": "Get one for free at https://app.sms77.io/developer",
+                "required": true,
+                "title": "API key",
+                "type": "string"
+            },
+            "debug": {
+                "description": "Enable sandbox mode not making calls - useful for testing",
+                "title": "Debug",
+                "type": "boolean"
+            },
+            "from": {
+                "description": "Called ID - must be verified or a shared number",
+                "maxLength": 16,
+                "title": "From",
+                "type": "string"
+            },
+            "name": {
+                "default": "sms77 Voice",
+                "description": "The name of the accessory",
+                "required": true,
+                "title": "Name",
+                "type": "string"
+            },
+            "performance_tracking": {
+                "description": "Decides whether the parameter 'text' is plain text or XML",
+                "title": "XML",
+                "type": "boolean"
+            },
+            "text": {
+                "description": "Message content - max. 10000 characters",
+                "maxLength": 10000,
+                "title": "Text",
+                "type": "string",
+                "required": true
+            },
+            "to": {
+                "description": "Recipient phone number(s) - multiple separated by comma",
+                "title": "To",
+                "type": "string",
+                "required": true
+            }
+        },
+        "type": "object"
+    },
+    "singular": true
+}

@@ -1,0 +1,33 @@
+{
+    "author": "André Matthies <a.matthies@sms77.io> (https://www.sms77.io)",
+    "bugs": {
+        "email": "a.matthies@sms77.io",
+        "url": "https://github.com/sms77io/homebridge-voice/issues"
+    },
+    "dependencies": {
+        "node-fetch": "^2.6.1",
+        "sms77-client": "^2.12.1"
+    },
+    "description": "Homebridge plugin to make text-to-speech calls via Sms77",
+    "displayName": "sms77 Voice",
+    "engines": {
+        "homebridge": ">=1.3.0",
+        "node": ">=12.13.0"
+    },
+    "homepage": "https://github.com/sms77io/homebridge-voice",
+    "keywords": [
+        "homebridge",
+        "homebridge-plugin",
+        "sms77",
+        "tts",
+        "voice"
+    ],
+    "license": "MIT",
+    "main": "src/index.js",
+    "name": "homebridge-sms77-voice",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/sms77io/homebridge-voice.git"
+    },
+    "version": "0.0.1"
+}
