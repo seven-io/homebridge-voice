@@ -24,7 +24,7 @@
     ],
     "license": "MIT",
     "main": "src/index.js",
-    "name": "homebridge-sms77-voice",
+    "name": "@seven.io/homebridge-voice",
     "repository": {
         "type": "git",
         "url": "git://github.com/sms77io/homebridge-voice.git"
